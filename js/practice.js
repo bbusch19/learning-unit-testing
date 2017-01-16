@@ -11,3 +11,5 @@
 
 
 //create a function called "first". This function should take one parameter, an array, and return the first value of that array.
+
+//create a function called "last". This function should take one parameter, an array, and return the last value of that array.

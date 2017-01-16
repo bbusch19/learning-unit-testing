@@ -85,3 +85,21 @@ describe('first', function() {
      })
 
 });
+
+describe('last', function() {
+
+    it('Should exist', function() {
+        assert.notEqual(first, undefined, 'last should exist');
+    })
+
+    it('Should be a function', function() {
+        assert.equal(typeof first, 'function', 'last should be a function');
+    })
+
+     it('Should return the last element of an array', function() {
+         var testArray = [1, 2, 3];
+         var testReturn = last(testArray);
+         assert.equal(testReturn, 1, 'Should return the last element')
+     })
+
+})

@@ -1,3 +1,5 @@
+//Test file for whole project
+
 var assert = chai.assert;
 
 describe('myVar', function() {
